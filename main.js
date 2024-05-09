@@ -21,3 +21,7 @@ console.log(changingEasilyToRight);
 let removeFirstStringFromArr = secretMessage.shift(0);
 console.log(removeFirstStringFromArr);
 console.log(secretMessage);
+
+// Add the word "Programming" at the beginning.
+let addProgrammingAtTheBeginning = secretMessage.unshift("Programming");
+console.log(addProgrammingAtTheBeginning);
