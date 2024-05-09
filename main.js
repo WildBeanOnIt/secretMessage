@@ -16,3 +16,8 @@ console.log(secretMessage);
 let changingEasilyToRight = secretMessage.toSpliced(7, 8, "right");
 console.log(secretMessage);
 console.log(changingEasilyToRight);
+
+// Removing the first string from the arr.
+let removeFirstStringFromArr = secretMessage.shift(0);
+console.log(removeFirstStringFromArr);
+console.log(secretMessage);
