@@ -13,7 +13,7 @@ let addToAndProgramToArray = secretMessage.push("to", "Program");
 console.log(secretMessage);
 
 // Changing the word "easily" to "right" .toSpliced
-let changingEasilyToRight = secretMessage.toSpliced(7, 8, "right");
+let changingEasilyToRight = secretMessage.toSpliced(7, 4, "right");
 console.log(secretMessage);
 console.log(changingEasilyToRight);
 
@@ -25,3 +25,12 @@ console.log(secretMessage);
 // Add the word "Programming" at the beginning.
 let addProgrammingAtTheBeginning = secretMessage.unshift("Programming");
 console.log(addProgrammingAtTheBeginning);
+
+
+// Remove 5 strings and replace them with the word "know," => "get", "right", "the", "first", "time",
+let removeFiveStringsReplacedWithKnow = changingEasilyToRight.toSpliced(6, 2, "know");
+//? 'Learning', 'is', 'not', 'about', 'what', 'you', 'get', 'right', 'you', 'can', 'figure', 'out.', '-2015,', 'Chris', 'Pine,', 'Learn', 'to', 'Program'
+console.log(removeFiveStringsReplacedWithKnow);
+
+// console.log(secretMessage.join(" "));
+console.log(removeFiveStringsReplacedWithKnow.join(" "));
